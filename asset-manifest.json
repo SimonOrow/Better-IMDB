@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/better-imdb/static/css/main.dc2a94ba.css",
+    "main.js": "/better-imdb/static/js/main.867abc36.js",
+    "static/js/787.78ebe1ef.chunk.js": "/better-imdb/static/js/787.78ebe1ef.chunk.js",
+    "index.html": "/better-imdb/index.html",
+    "main.dc2a94ba.css.map": "/better-imdb/static/css/main.dc2a94ba.css.map",
+    "main.867abc36.js.map": "/better-imdb/static/js/main.867abc36.js.map",
+    "787.78ebe1ef.chunk.js.map": "/better-imdb/static/js/787.78ebe1ef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc2a94ba.css",
+    "static/js/main.867abc36.js"
+  ]
+}
