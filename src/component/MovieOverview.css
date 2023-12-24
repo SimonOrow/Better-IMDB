@@ -1,0 +1,63 @@
+.MovieOverview img {
+  height: 300px;
+  margin-top: 20px;
+}
+
+.MovieOverview {
+  font-family: "Hind", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.MovieOverview .genre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.MovieOverview .fa-star {
+  margin-top: 30px;
+}
+
+.MovieOverview .genre p {
+  padding: 3px 2px;
+}
+
+.MovieOverview p {
+  padding: 3px 50px;
+}
+
+.MovieOverview .label-container {
+  display: flex;
+  padding: 15px 0px;
+  justify-content: center;
+}
+
+.MovieOverview .labeling {
+  color: #70c8ff;
+}
+
+.MovieOverview h2 {
+  padding: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .MovieOverview {
+    /* height: 75vh; */
+    display: flex;
+    justify-content: center;
+  }
+  .MovieOverview .overview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .MovieOverview img {
+    margin-left: 50px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px rgb(25, 24, 24);
+  }
+}

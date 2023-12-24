@@ -1,0 +1,51 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #083449;
+  padding: 0 5%;
+  font-family: "Hind", sans-serif;
+}
+
+.Header .mobileimg {
+  height: 90%;
+}
+
+.Header .desktopimg {
+  display: none;
+}
+
+.Header h1 {
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  font-family: "Italiana", serif;
+  text-shadow: 2px 2px 8px #0e0a13;
+  margin-right: 30px;
+}
+.Header .test {
+  display: flex;
+  align-items: center;
+}
+
+.Header .watchlist {
+  color: white;
+}
+.Header .watchlist:hover {
+  border-bottom: 1px solid rgb(255, 255, 255, 0.5);
+  padding-top: 1px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Header {
+    padding: 0 20px;
+  }
+  .Header .desktopimg {
+    display: block;
+    height: 90%;
+  }
+  .Header .mobileimg {
+    display: none;
+  }
+}

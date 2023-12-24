@@ -1,0 +1,29 @@
+/* resets */
+
+body,
+h1,
+ul,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.fa-star {
+  color: #70c8ff;
+  font-size: larger;
+}
+.fa-star:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #021427;
+  color: white;
+  height: 100vh;
+}
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
